@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/media-query.css" rel="stylesheet" type="text/css">
+    <title>Ahmed Mannai</title>
+</head>
+<body>
+    <!--============================= HEADER =============================-->
+    <header class="header" id="header">
+        
+        <nav class="nav">
+            <div class="container-nav">
+                <a href="#" class="nav__logo">Ahmed.Mannai</a>
+                <div class="nav__menu1" id="nav-menu1">
+                    <a href="#home" class="is-active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__container">
+                <a href="#home"  class="mob_nav_btn nav-close"><i class="uil uil-estate uill"></i>Home</a>
+                <a href="#about"  class="mob_nav_btn nav-close"><i class="uil uil-user uill"></i>About</a>
+                <a href="#blog"  class="mob_nav_btn nav-close"><i class="uil uil-document-layout-left uill"></i>Blog</a>
+                <a href="#contact"  class="mob_nav_btn nav-close"><i class="uil uil-message uill"></i>Contact</a>
+            </div>
+        </div>  
+        
+    </header>
+
+    <!--============================= MAIN =============================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="img__container">
+                    <img src="resources/img/Ahmed_mannai__pic.png" alt="Picture of Ahmed Mannai" class="Ahmed-image">
+                </div>                
+                <div class="home__caption">
+                    <p>Hi There, My name is Ahmed Mannai. I am passioned with Software Development.
+                    </p>
+                    <a href="#contact" class="home_button">Contact Me <i class="uil uil-message"></i></a>
+                </div>
+            </div>
+            <div class="media__container">
+                <a href="https://www.linkedin.com/in/ahmed-mannai-b510b9209/" target="_blank"><i
+                        class="uil uil-linkedin-alt media_icon"></i></a>
+                <a href="https://github.com/MannaiAhmed-10" target="_blank"><i class="uil uil-github-alt media_icon"></i></a>
+            </div>
+        </section>
+        <!--==================== ABOUT ====================-->
+        <div class="about section" id="about">
+            <div class="about__container container">
+                <span class="about__bar"></span>
+                <div class="about__caption">
+                    <h2 class="about__header">About Ahmed Mannai</h2>
+                    <p >Welcome to my Personal Website!<br>I am currently studding Computer Science here in Tunisia at
+                        Sfax's university of science. 
+                        passioned with football and addicted to software development.
+                        I am always working and learning. my next goal after finishing computer science is to become a software engineer.
+                        If you would like to find more about me here is my <a href="#" >CV</a>.
+                    </p>
+                    <div class="about__img">
+                    <!--TODO: ADDING IMAGE OR MORE INFORMATION ABOUT ME-->
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <!--==================== BLOG ====================-->
+        <div class="blog section" id="blog">
+            <h2 class="blog__header section__title">My Blog</h2>
+            <div class="blog__container">
+
+                <div class="blog__post">
+                    <div  class="blogP_img" ></div>
+                    <h3 class="blogP_title">blogs are Comming Soon</h3>
+                    <caption class="">
+                        so it's Appear that I haven't post any blog post, well I am really excited for blog posting.
+                        I really wanted to share my ideas for a long time in a personal space. final it happend and I will post consistently here.
+                    </caption>
+                </div>
+                
+                <div class="blog__post">
+                    <div  class="blogP_img" ></div>
+                    <h3 class="blogP_title">blogs are Comming Soon</h3>
+                    <caption class="">
+                        so it's Appear that I haven't post any blog post, well I am really excited for blog posting.
+                        I really wanted to share my ideas for a long time in a personal space. final it happend and I will post consistently here.
+                    </caption>
+                </div>
+                
+                <div class="blog__post">
+                    <div  class="blogP_img" ></div>
+                    <h3 class="blogP_title">blogs are Comming Soon</h3>
+                    <caption class="">
+                        so it's Appear that I haven't post any blog post, well I am really excited for blog posting.
+                        I really wanted to share my ideas for a long time in a personal space. final it happend and I will post consistently here.
+                    </caption>
+                </div>
+
+            </div>
+        </div>
+        <!--==================== CONTACT ===================-->
+        <div class="contact section" id="contact">
+            <h2 class="section__title contact__header" >Message Me</h2>
+            <div class="contact__container container">
+                <form action="https://formsubmit.co/manai@fss.u-sfax.tn" class="contact__form" method="POST">
+                    <input type="text" placeholder="Name" class="contact__input" required>
+                    <input type="mail" placeholder="Email" class="contact__input" required>
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="Submit" class="contact__button">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/Personal%20Website%201.1/contactThanks.html">
+                </form>
+            </div>
+        </div>
+    </main>
+    <!--============================= FOOTER =============================-->
+    <footer class="footer section" id="footer">
+            <div class="social__media__footer">
+                <a href="" traget="_blank"><i class="uil uil-instagram SM_icons"></i></a>
+                <a href="" traget="_blank"><i class="uil uil-linkedin-alt SM_icons"></i></a>
+                <a href="" traget="_blank"><i class="uil uil-github-alt SM_icons"></i></a>
+                <a href="" traget="_blank"><i class="uil uil-twitter-alt SM_icons"></i></a>
+                <a href="" traget="_blank"><i class="uil uil-youtube SM_icons"></i></a>
+            </div>
+            <div class="email__footer">
+                <h3>Email</h3>
+                <p>manai@fss.u-sfax.tn</p>
+            </div>
+            <div class="cpy-right__footer"><span>&copy;</span> 2021 Ahmed Mannai. All Rights Reserved.</div>
+        
+    </footer>
+
+    
+    <!--============================= SCROLL TOP =============================-->
+
+    
+
+    <!--============================= SWIPER JS =============================-->
+
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
