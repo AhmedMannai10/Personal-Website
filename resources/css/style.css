@@ -132,8 +132,6 @@ img {
 /*============= HEADER SECTION ============*/
 .header {
     background-color: var(--color-navy);
-
-
 }
 
 /*============== NAV =================*/
@@ -284,12 +282,6 @@ img {
     margin: 1rem;
 }
 
-.nav__menu1 {
-    font-family: var(--font-boy);
-    font-size: 1.25rem;
-    font-weight: var(--font-semi-bold);
-}
-
 /* container nav */
 
 .container-nav {
@@ -299,6 +291,9 @@ img {
 }
 
 .nav__menu1 {
+    font-family: var(--font-boy);
+    font-size: 1.25rem;
+    font-weight: var(--font-semi-bold);
 
     display: grid;
     justify-items: center;
@@ -313,7 +308,7 @@ img {
     border-radius: 10px;
     margin: 0 --mb-1;
 
-    padding: .1rem 1rem;
+    padding: .1rem 1rem .25rem 1rem;
 }
 
 .nav__menu1 a:link,
