@@ -83,8 +83,23 @@
     
 }
 
+/* TO DO */
+@media only screen and (min-width: 767px){
+   .blog_post{
+       display: flex;
+       
+   } 
+}
 
-@media (max-width: 375px){
+
+@media only screen and (max-width: 767px){
+    .blog_post h2{
+        /* TO Do */
+    }
+}
+
+
+@media only screen and (max-width: 420px){
     .img__container{
         width: 85vw;
     }
