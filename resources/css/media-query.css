@@ -89,6 +89,9 @@
        display: flex;
        
    } 
+   .post_content h2{
+       font-size: var(--huge-font-size); 
+   }
 }
 
 
