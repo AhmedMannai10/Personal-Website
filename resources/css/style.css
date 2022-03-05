@@ -332,6 +332,9 @@ img {
     background-color: var(--color-whitech);
     padding-top: 5rem;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home__container {
@@ -455,11 +458,12 @@ img {
 
 .about__header {
     font-size: var(--huge-font-size);
-    margin: --mb-1 0;
+    margin: var(--mb-1) 0;
 }
 
 .about__caption {
     font-size: var(--h3-font-size);
+    padding: .7rem .1rem;
 }
 
 .about__caption a {
@@ -505,13 +509,6 @@ img {
     -o-box-shadow: 5px 5px 35px 0px #cbcbcb;
     box-shadow: 5px 5px 5px 35p 0px #cbcbcb;
     overflow: hidden;
-}
-
-.blog_wrapper{
-    height: 100%;
-    width: 100%;
-    
-    max-height: 100vh;
 }
 
 .blog_post{

@@ -11,3 +11,14 @@ jspm_packages/
 # Output of 'npm pack'
 *.tgz
 
+#logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+private.txt
+
+.lock-wscript
+#npm literserver custom config
+bs-config.js*
