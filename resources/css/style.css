@@ -74,6 +74,7 @@ body {
 
 }
 
+
 h1,
 h2,
 h3,
@@ -395,7 +396,7 @@ img {
     border-radius: 2px;
     padding: 10px;
     box-shadow: -4px 4px 0 0 var(--color-navy-900);
-    transition: border-color 150ms ease-in 0s, color 150ms ease-in 0s, background-color 150ms ease-in 0s, box-shadow 150ms ease-in 0s;
+    transition:color 150ms ease-in 0s, background-color 150ms ease-in 0s, box-shadow 150ms ease-in 0s;
 }
 
 .home_button:hover,
@@ -464,6 +465,7 @@ img {
 .about__caption {
     font-size: var(--h3-font-size);
     padding: .7rem .1rem;
+    overflow: auto;
 }
 
 .about__caption a {
@@ -509,6 +511,7 @@ img {
     -o-box-shadow: 5px 5px 35px 0px #cbcbcb;
     box-shadow: 5px 5px 5px 35p 0px #cbcbcb;
     overflow: hidden;
+    border-radius: 2px;
 }
 
 .blog_post{
@@ -532,6 +535,7 @@ img {
     max-height: 45%;
  
     overflow: hidden;
+
 }
 
 .pImg{
@@ -545,6 +549,8 @@ img {
     margin: auto;
     top: 0;
     bottom: 0;
+    background-color: var(--color-yellow-500);
+    
 }
 
 .post_content{
@@ -563,7 +569,7 @@ img {
 }
 
 .post_content h2{
-   
+    
     font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
@@ -574,20 +580,43 @@ img {
 .post_content p{
    
     font-size: var(--normal-font-size);
-    overflow: hidden;
+    overflow: auto;
     line-height: 1.5;
 }
 
-.post_content a{
-    color: var(--color-yellow-500);
-    font-size: 13px;
-    text-decoration: underline;
-    font-weight: 600;
-    letter-spacing: 0.8px;
+.go-blog-btn{
 
-    margin-top: 1rem;
-
+    background-color: var(--color-yellow-500);
+    color: var(--color-navy-900); 
     
+
+    margin-top: var(--mb-1);
+
+    align-self: center;
+
+    display: block;
+    font-size:var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    
+    background-color: var(--color-yellow-500);
+
+    width: 190px;
+    height: var(--mb-3);
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: -4px 4px 0 0 var(--color-whitech);
+    transition: box-shadow 150ms ease-in 0s, background-color 150ms ease-in 0s;
+}
+
+.go-blog-btn:hover,
+.go-blog-btn:visited{
+    box-shadow: -7px 7px 0 0 var(--color-whitech);
+}
+
+.go-blog-btn:active{
+    background-color: var(--color-whitech);
+    box-shadow: 0px 0px;
 }
 /*=============== CONTACT =============*/
 
@@ -644,7 +673,7 @@ textarea {
     border-radius: 10px;
     padding: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: bax-shadow 150ms ease-in 0s;
+    transition: box-shadow 150ms ease-in 0s;
 }
 
 .contact__button:hover {
