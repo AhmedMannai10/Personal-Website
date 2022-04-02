@@ -11,6 +11,7 @@
     <link href="resources/css/media-query.css" rel="stylesheet" type="text/css">
     <script src="resources/js/script.js" language="javascript" defer></script>
     <title>Ahmed Mannai</title>
+    <link rel="shortcut icon" href="./resources/img/Ahmed_mannai__pic_title.png">
 </head>
 <body>
     <!--============================= HEADER =============================-->
@@ -54,7 +55,7 @@
                     <img src="resources/img/Ahmed_mannai__pic.png" alt="Picture of Ahmed Mannai" class="Ahmed-image">
                 </div>                
                 <div class="home__caption">
-                    <p>Hi There, My name is Ahmed Mannai. I am passioned with Software Development.
+                    <p>Hi There, My name is Ahmed Mannai. I am a Software Development.
                     </p>
                     <a href="#contact" class="home_button">Contact Me <i class="uil uil-message"></i></a>
                 </div>
@@ -73,8 +74,10 @@
                     <h2 class="about__header">About Ahmed Mannai</h2>
                     <p >Welcome to my Personal Website!<br>I am currently studding Computer Science here in Tunisia at
                         Sfax's university of science. 
-                        passioned with football and addicted to software development.
-                        I am always working and learning. my next goal after finishing computer science is to become a software engineer.
+                        I was never the best at school or academics.
+                        I'm just a super curious guy. with huge passion to software development.
+                        Having a good experience in Computer Science and Programming.
+                        Also I am Love to Football.<br>
                         If you would like to find more about me here is my <a href="#" >CV</a>.
                     </p>
                     <div class="about__img">
@@ -93,12 +96,15 @@
                  
                     <div class="blog_post">
                         <div class="post_img">
-                            <img class="pImg" src="/resources/img/blogging_illustration_image.png" alt="blogging_illustration_image">
+                            <img class="pImg" src="./resources/img/blogging_illustration_image.png" alt="blogging_illustration_image">
                         </div>
                         
                         <div class="post_content">
                             <h2 >My Blog</h2>
-                            <p>I love blogging and I want to share and document my journey that. my blog will have all my news and all my ups and down any way. I am enjoying the journey and I want to share it. Anyways blogs posting will start soon Inchalah</p>
+                            <p>I want to share my thoughts and interests in various fields,
+                                 therefore I will be blogging and documenting my journey here, so take a look if you are interested.
+                                <br><b>Note: </b>I haven't yet shared any posts. The blog section will be accessible soon. 
+                            </p>
                         <a href="#blog" class="go-blog-btn">Visit Blog</a>
                         </div>  
                     </div>       
@@ -110,12 +116,14 @@
         <div class="contact section" id="contact">
             <h2 class="section__title contact__header" >Message Me</h2>
             <div class="contact__container container">
-                <form action="https://formsubmit.co/manai@fss.u-sfax.tn" class="contact__form" method="POST">
-                    <input type="text" placeholder="Name" class="contact__input" required>
-                    <input type="mail" placeholder="Email" class="contact__input" required>
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="submit" value="Submit" class="contact__button ">
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/Personal%20Website%201.1/contactThanks.html">
+                <form action="/resources/contact/contact.php" class="contact__form" method="POST">
+                    <input type="text" placeholder="Name" name="name" class="contact__input" value="" required>
+                    <input type="mail" placeholder="Email" name="mail" class="contact__input" value="" required>
+                    <textarea name="" id="" name="message" cols="0" rows="10" class="contact__input" value=""></textarea>
+                    <button type="submit" name="submit" value="Submit" id="submit" class="contact__button ">
+                        <span class="submit-text">Submit</span>
+                        <i class="uil uil-message uil-submit"></i>
+                    </button>
                 </form>
             </div>
         </div>
@@ -137,13 +145,6 @@
         
     </footer>
 
-    
-    <!--============================= SCROLL TOP =============================-->
-
-    
-
-    <!--============================= SWIPER JS =============================-->
-    
     
 </body>
 </html>
